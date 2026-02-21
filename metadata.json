@@ -1,6 +1,6 @@
 {
   "name": "LibreLinkUp Top Bar",
-  "description": "Show latest glucose readings from LibreLinkUp in the top bar",
+  "description": "Show glucose readings from FreeStyle LibreLinkUp in the top bar",
   "uuid": "llu-top-bar-extension@gfidente.github.com",
   "shell-version": ["49"],
   "url": "https://github.com/gfidente/llu-top-bar-extension",

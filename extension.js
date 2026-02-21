@@ -1,5 +1,5 @@
 import GLib from "gi://GLib";
-import Soup from "gi://Soup?version=3.0";
+import Soup from "gi://Soup";
 import St from "gi://St";
 import Clutter from "gi://Clutter";
 
