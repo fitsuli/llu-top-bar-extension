@@ -202,9 +202,9 @@ export default class LluExtension extends Extension {
 
         let barText = "";
         if (diff < 0) {
-          barText = `mg/dl ${value} (${diff})`;
+          barText = `mg/dL ${value} (${diff})`;
         } else {
-          barText = `mg/dl ${value} (+${diff})`;
+          barText = `mg/dL ${value} (+${diff})`;
         }
         const menuText = `Sensor SN: ${conn.sensor.sn}\n${conn.firstName} ${conn.lastName}`;
 

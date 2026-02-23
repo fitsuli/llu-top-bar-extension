@@ -14,7 +14,7 @@ The extension provides for a little configuration screen to set the username and
 
 ## Installation
 
-The extension should be easy to install via browser from <https://extensions.gnome.org/>. To install it manually instead, clone the repo into the gnome-shell extensions path[^1]:
+The extension should be easy to install via browser from [GNOME Extensions](https://extensions.gnome.org/extension/9393/librelinkup-top-bar/) website. To install it manually instead, clone the repo into the gnome-shell extensions path[^1]:
 
 [^1]: By default the extesions directory should be `~/.local/share/gnome-shell/extensions/`; if it doesn't exist yet, create it.
 
