@@ -107,7 +107,7 @@ export default class LluExtension extends Extension {
       !password ||
       (username === "email" && password == "password")
     ) {
-      console.warn("LLU: Configure credentials before use");
+      console.debug("LLU: Configure credentials before use");
       this._button.set_text("Configure Credentials");
       return;
     }
@@ -136,7 +136,7 @@ export default class LluExtension extends Extension {
       );
 
       if (message.status_code !== 200) {
-        console.warn(`LLU: Login failed with status ${message.status_code}`);
+        console.debug(`LLU: Login failed with status ${message.status_code}`);
         this._button.set_text("Login Failed");
         return;
       }
@@ -152,7 +152,7 @@ export default class LluExtension extends Extension {
         this._accountId = checksum.get_string();
         console.debug(`LLU: Logged in as ${username}`);
       } else {
-        console.warn("LLU: Token not found in response");
+        console.debug("LLU: Token not found in response");
         this._button.set_text("Token Not Found");
       }
     } catch (e) {
@@ -184,7 +184,7 @@ export default class LluExtension extends Extension {
       }
 
       if (message.status_code !== 200) {
-        console.warn(`LLU: Fetch failed ${message.status_code}`);
+        console.debug(`LLU: Fetch failed ${message.status_code}`);
         this._button.set_text("Fetch Failed");
         return;
       }
