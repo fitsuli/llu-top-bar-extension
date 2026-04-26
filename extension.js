@@ -8,8 +8,8 @@ import * as PanelMenu from "resource:///org/gnome/shell/ui/panelMenu.js";
 import * as PopupMenu from "resource:///org/gnome/shell/ui/popupMenu.js";
 import { Extension } from "resource:///org/gnome/shell/extensions/extension.js";
 
-const LOGIN_URL = "https://api-eu.libreview.io/llu/auth/login";
-const DATA_URL = "https://api-eu.libreview.io/llu/connections";
+const LOGIN_URL = "https://api.libreview.io/llu/auth/login";
+const DATA_URL = "https://api.libreview.io/llu/connections";
 
 const HEADERS = {
   accept: "application/json",
